@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20191001_165624" timestamp="2019-10-01T16:56:24" time="58.189" tests="25" errors="0">
+  <testsuite id="1001" name="1 Scenario_IndexIcon" package="1 Scenario_IndexIcon" hostname="ATMECSINDT-016" timestamp="2019-10-01T16:56:26" time="19.864" tests="6" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-016" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Unnamalai.S" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="Scenario_IndexIcon.xlsx" />
+      <property name="Logs" value="C:\projects\ParaBankAutomation\output\20191001_165624\logs\nexial-20191001_165624.log" />
+      <property name="Data File" value="Scenario_IndexIcon.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="runtime args" value="-plan C:\projects\ParaBankAutomation\artifact\plan\Scenario_IndexIcon-plan.xlsx" />
+    </properties>
+    <testcase id="Validate index icon" name="Validate index icon" classname="TestCase_06" timestamp="2019-10-01T16:56:29" time="16.844">
+      <system-out>Total : 6
+Passed: 6
+Failed: 0
+Output: C:\projects\ParaBankAutomation\output\20191001_165624\Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_165626.001.xlsx
+Logs  : C:\projects\ParaBankAutomation\output\20191001_165624\logs\nexial-20191001_165624.log</system-out>
+    </testcase>
+  </testsuite>
+  <testsuite id="2001" name="2 Scenario_IndexIcon" package="2 Scenario_IndexIcon" hostname="ATMECSINDT-016" timestamp="2019-10-01T16:56:48" time="13.833" tests="9" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-016" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Unnamalai.S" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="Scenario_IndexIcon.xlsx" />
+      <property name="Logs" value="C:\projects\ParaBankAutomation\output\20191001_165624\logs\nexial-20191001_165624.log" />
+      <property name="runtime args" value="-plan C:\projects\ParaBankAutomation\artifact\plan\Scenario_IndexIcon-plan.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="Data File" value="Scenario_IndexIcon.data.xlsx" />
+    </properties>
+    <testcase id="Verifying ATM services of index page" name="Verifying ATM services of index page" classname="TestCase_07" timestamp="2019-10-01T16:56:51" time="11.687">
+      <system-out>Total : 9
+Passed: 9
+Failed: 0
+Output: C:\projects\ParaBankAutomation\output\20191001_165624\Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_165648.001.xlsx
+Logs  : C:\projects\ParaBankAutomation\output\20191001_165624\logs\nexial-20191001_165624.log</system-out>
+    </testcase>
+  </testsuite>
+  <testsuite id="3001" name="3 Scenario_IndexIcon" package="3 Scenario_IndexIcon" hostname="ATMECSINDT-016" timestamp="2019-10-01T16:57:04" time="9.025" tests="7" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-016" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Unnamalai.S" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="Scenario_IndexIcon.xlsx" />
+      <property name="Logs" value="C:\projects\ParaBankAutomation\output\20191001_165624\logs\nexial-20191001_165624.log" />
+      <property name="runtime args" value="-plan C:\projects\ParaBankAutomation\artifact\plan\Scenario_IndexIcon-plan.xlsx" />
+      <property name="Data File" value="Scenario_IndexIcon.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+    </properties>
+    <testcase id="Verifying online services of index page" name="Verifying online services of index page" classname="TestCase_08" timestamp="2019-10-01T16:57:05" time="8.171">
+      <system-out>Total : 7
+Passed: 7
+Failed: 0
+Output: C:\projects\ParaBankAutomation\output\20191001_165624\Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_165704.001.xlsx
+Logs  : C:\projects\ParaBankAutomation\output\20191001_165624\logs\nexial-20191001_165624.log</system-out>
+    </testcase>
+  </testsuite>
+  <testsuite id="4001" name="4 Scenario_IndexIcon" package="4 Scenario_IndexIcon" hostname="ATMECSINDT-016" timestamp="2019-10-01T16:57:15" time="5.048" tests="3" errors="0">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-016" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Unnamalai.S" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="Scenario_IndexIcon.xlsx" />
+      <property name="Logs" value="C:\projects\ParaBankAutomation\output\20191001_165624\logs\nexial-20191001_165624.log" />
+      <property name="runtime args" value="-plan C:\projects\ParaBankAutomation\artifact\plan\Scenario_IndexIcon-plan.xlsx" />
+      <property name="Data File" value="Scenario_IndexIcon.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+    </properties>
+    <testcase id="Verifying online services of index page" name="Verifying online services of index page" classname="TestCase_09" timestamp="2019-10-01T16:57:16" time="4.050">
+      <system-out>Total : 3
+Passed: 3
+Failed: 0
+Output: C:\projects\ParaBankAutomation\output\20191001_165624\Scenario_IndexIcon-plan.004,Scenario_IndexIcon.20191001_165716.001.xlsx
+Logs  : C:\projects\ParaBankAutomation\output\20191001_165624\logs\nexial-20191001_165624.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

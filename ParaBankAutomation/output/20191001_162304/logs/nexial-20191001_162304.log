@@ -1,0 +1,241 @@
+2019-10-01 16:23:04,866|I|Thread-1|(DELAYED) nexial-core 2.6_0632 starting up...
+2019-10-01 16:23:04,866|I|Thread-1|(DELAYED) validating test script as C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx
+2019-10-01 16:23:04,866|I|Thread-1|(DELAYED) validating data file as C:\projects\ParaBankAutomation\artifact\data\Scenario_IndexIcon.data.xlsx
+2019-10-01 16:23:04,866|I|Thread-1|(DELAYED) validating test script as C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx
+2019-10-01 16:23:04,866|I|Thread-1|(DELAYED) validating data file as C:\projects\ParaBankAutomation\artifact\data\Scenario_IndexIcon.data.xlsx
+2019-10-01 16:23:04,866|I|Thread-1|(DELAYED) validating test script as C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx
+2019-10-01 16:23:04,866|I|Thread-1|(DELAYED) validating data file as C:\projects\ParaBankAutomation\artifact\data\Scenario_IndexIcon.data.xlsx
+2019-10-01 16:23:04,866|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-10-01 16:23:04,866|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-10-01 16:23:04,866|I|Thread-1|(DELAYED) [20191001_162304] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] resolve RUN ID as 20191001_162304
+2019-10-01 16:23:04,866|I|Thread-1|(DELAYED) [20191001_162304] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] new thread started
+2019-10-01 16:23:04,866|I|Thread-1|No predefined nexial-setup found
+2019-10-01 16:23:04,960|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-10-01 16:23:04,960|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-10-01 16:23:04,960|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-10-01 16:23:04,991|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-10-01 16:23:05,882|I|Thread-1|[20191001_162304] executing C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx with 1 iteration(s)
+2019-10-01 16:23:05,886|I|Thread-1|[20191001_162304] create directory C:\projects\ParaBankAutomation\output\20191001_162304\captures
+2019-10-01 16:23:05,887|I|Thread-1|[20191001_162304] create directory C:\projects\ParaBankAutomation\output\20191001_162304\logs
+2019-10-01 16:23:07,463|I|Thread-1|[20191001_162304] merging test data to tmp file C:\projects\ParaBankAutomation\output\20191001_162304\Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001.xlsx
+2019-10-01 16:23:07,464|I|Thread-1|refetching data from C:\projects\ParaBankAutomation\artifact\data\Scenario_IndexIcon.data.xlsx
+2019-10-01 16:23:07,840|I|Thread-1|[20191001_162304] test script and test data merged to C:\projects\ParaBankAutomation\output\20191001_162304\Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001.xlsx
+2019-10-01 16:23:08,406|I|Thread-1|STARTS
+2019-10-01 16:23:08,434|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001 - executing iteration #1 of 1; Iteration Id 1
+2019-10-01 16:23:08,446|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001|TestCase_06 - executing test scenario
+2019-10-01 16:23:08,448|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001|TestCase_06|Validate index icon - executing activity
+2019-10-01 16:23:09,059|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001|TestCase_06|Validate index icon|#  5|web.open(url) - executing open(url)(${parabankURL})
+2019-10-01 16:23:09,059|I|Thread-1|No valid instance of webdriver, initializing...
+2019-10-01 16:23:09,059|I|Thread-1|init chrome
+2019-10-01 16:23:12,323|I|Thread-1|browser initialization completed for 'chrome'
+2019-10-01 16:23:12,354|I|Thread-1|setting browser polling wait time to 800 ms
+2019-10-01 16:23:12,385|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-10-01 16:23:18,269|I|Thread-1|current browser window handle:CDwindow-6F55D6A627441E8F4F1C7D2430BF09C3
+2019-10-01 16:23:18,671|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001|TestCase_06|Validate index icon|#  5|web.open(url) - PASS opened URL https://parabank.parasoft.com/parabank/transfer.htm
+2019-10-01 16:23:19,272|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001|TestCase_06|Validate index icon|#  6|web.maximizeWindow() - executing maximizeWindow()()
+2019-10-01 16:23:20,441|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001|TestCase_06|Validate index icon|#  6|web.maximizeWindow() - PASS browser window maximized
+2019-10-01 16:23:21,044|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001|TestCase_06|Validate index icon|#  7|web.click(locator) - executing click(locator)(${loc.parabank.indexicon})
+2019-10-01 16:23:21,107|I|Thread-1|clicking '//div[@id='mainPanel']/div/ul/li/a[text()='home']		'...
+2019-10-01 16:23:21,157|I|Thread-1|click target via JS, @id=
+2019-10-01 16:23:22,674|I|Thread-1|clicked -> true
+2019-10-01 16:23:22,683|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001|TestCase_06|Validate index icon|#  7|web.click(locator) - PASS click via JS event
+2019-10-01 16:23:23,291|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001|TestCase_06|Validate index icon|#  8|web.assertElementByText(l - executing assertElementByText(locator,text)(${loc.parabank.ATMservices}, ${parabankatmsevices})
+2019-10-01 16:23:23,354|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001|TestCase_06|Validate index icon|#  8|web.assertElementByText(l - PASS validated locator '//li[@class='captionone']' by text 'ATM Services' as EXPECTED
+2019-10-01 16:23:23,955|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001|TestCase_06|Validate index icon|#  9|web.assertElementByText(l - executing assertElementByText(locator,text)(${loc.parabank.OnlineServices}, ${ParaBankOnlineServices})
+2019-10-01 16:23:24,017|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001|TestCase_06|Validate index icon|#  9|web.assertElementByText(l - PASS validated locator '//li[@class='captiontwo']' by text 'Online Services' as EXPECTED
+2019-10-01 16:23:24,622|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001|TestCase_06|Validate index icon|# 10|web.assertElementByText(l - executing assertElementByText(locator,text)(${loc.parabank.LatestNews}, ${ParaBankLatestNews})
+2019-10-01 16:23:24,687|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001|TestCase_06|Validate index icon|# 10|web.assertElementByText(l - PASS validated locator '//*[@id="rightPanel"]/h4' by text 'LATEST NEWS' as EXPECTED
+2019-10-01 16:23:24,943|I|Thread-1|[Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001|TestCase_06] saving test scenario
+2019-10-01 16:23:25,144|I|Thread-1|[20191001_162304] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\ParaBankAutomation\output\20191001_162304\Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 16693 ms
+» Test Steps:     6
+» Error(s):       0
+
+
+
+2019-10-01 16:23:27,735|I|Thread-1|[20191001_162304] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 23066 ms
+» Iterations:     [1] total 1
+» Test Steps:     6
+» Passed:         6
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\ParaBankAutomation\output\20191001_162304\Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_162305.001.xlsx
+
+
+
+2019-10-01 16:23:28,668|I|main|[20191001_162304] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] now completed
+2019-10-01 16:23:28,669|I|main|[20191001_162304] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] resolve RUN ID as 20191001_162304
+2019-10-01 16:23:28,670|I|main|[20191001_162304] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] new thread started
+2019-10-01 16:23:28,676|I|Thread-5|missing REQUIRED configuration; sms DISABLED!
+2019-10-01 16:23:28,699|I|Thread-5|[20191001_162304] executing C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx with 1 iteration(s)
+2019-10-01 16:23:28,699|I|Thread-5|[20191001_162304] create directory C:\projects\ParaBankAutomation\output\20191001_162304\captures
+2019-10-01 16:23:28,700|I|Thread-5|[20191001_162304] create directory C:\projects\ParaBankAutomation\output\20191001_162304\logs
+2019-10-01 16:23:29,635|I|Thread-5|[20191001_162304] merging test data to tmp file C:\projects\ParaBankAutomation\output\20191001_162304\Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001.xlsx
+2019-10-01 16:23:29,637|I|Thread-5|refetching data from C:\projects\ParaBankAutomation\artifact\data\Scenario_IndexIcon.data.xlsx
+2019-10-01 16:23:29,923|I|Thread-5|[20191001_162304] test script and test data merged to C:\projects\ParaBankAutomation\output\20191001_162304\Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001.xlsx
+2019-10-01 16:23:30,314|I|Thread-5|STARTS
+2019-10-01 16:23:30,314|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001 - executing iteration #1 of 1; Iteration Id 1
+2019-10-01 16:23:30,330|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07 - executing test scenario
+2019-10-01 16:23:30,330|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page - executing activity
+2019-10-01 16:23:30,930|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page|#  5|web.open(url) - executing open(url)(${parabankIndexURL})
+2019-10-01 16:23:31,871|I|Thread-5|current browser window handle:CDwindow-6F55D6A627441E8F4F1C7D2430BF09C3
+2019-10-01 16:23:31,923|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page|#  5|web.open(url) - PASS opened URL https://parabank.parasoft.com/parabank/index.htm
+2019-10-01 16:23:32,527|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page|#  6|web.maximizeWindow() - executing maximizeWindow()()
+2019-10-01 16:23:32,621|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page|#  6|web.maximizeWindow() - PASS browser window maximized
+2019-10-01 16:23:33,222|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page|#  7|web.assertAndClick(locato - executing assertAndClick(locator,label)(${loc.parabank.WithdrawFunds}, ${ParaBankWithdrawText})
+2019-10-01 16:23:33,395|I|Thread-5|clicking '(//a[@href="services/ParaBank?wsdl"])[1]	[text() = 'Withdraw Funds']'...
+2019-10-01 16:23:33,420|I|Thread-5|click target via JS, @id=
+2019-10-01 16:23:34,524|I|Thread-5|clicked -> true
+2019-10-01 16:23:34,527|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page|#  7|web.assertAndClick(locato - PASS click via JS event
+2019-10-01 16:23:35,130|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page|#  8|web.open(url) - executing open(url)(${parabankIndexURL})
+2019-10-01 16:23:36,081|I|Thread-5|current browser window handle:CDwindow-6F55D6A627441E8F4F1C7D2430BF09C3
+2019-10-01 16:23:36,111|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page|#  8|web.open(url) - PASS opened URL https://parabank.parasoft.com/parabank/index.htm
+2019-10-01 16:23:36,712|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page|#  9|web.assertAndClick(locato - executing assertAndClick(locator,label)(${loc.parabank.TransferFunds}, ${ParaBankTransferFunds})
+2019-10-01 16:23:36,836|I|Thread-5|clicking '(//a[@href="services/ParaBank?wsdl"])[2 and text() = 'Transfer Funds']'...
+2019-10-01 16:23:36,862|I|Thread-5|click target via JS, @id=
+2019-10-01 16:23:37,810|I|Thread-5|clicked -> true
+2019-10-01 16:23:37,814|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page|#  9|web.assertAndClick(locato - PASS click via JS event
+2019-10-01 16:23:38,415|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page|# 10|web.open(url) - executing open(url)(${parabankIndexURL})
+2019-10-01 16:23:39,445|I|Thread-5|current browser window handle:CDwindow-6F55D6A627441E8F4F1C7D2430BF09C3
+2019-10-01 16:23:39,473|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page|# 10|web.open(url) - PASS opened URL https://parabank.parasoft.com/parabank/index.htm
+2019-10-01 16:23:40,075|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page|# 11|web.assertAndClick(locato - executing assertAndClick(locator,label)(${loc.parabank.CheckBalances}, ${ParaBankCheckBalances})
+2019-10-01 16:23:40,208|I|Thread-5|clicking '(//a[@href="services/ParaBank?wsdl"])[3 and text() = 'Check Balances']'...
+2019-10-01 16:23:40,229|I|Thread-5|click target via JS, @id=
+2019-10-01 16:23:40,932|I|Thread-5|clicked -> true
+2019-10-01 16:23:40,937|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page|# 11|web.assertAndClick(locato - PASS click via JS event
+2019-10-01 16:23:41,540|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page|# 12|web.open(url) - executing open(url)(${parabankIndexURL})
+2019-10-01 16:23:42,514|I|Thread-5|current browser window handle:CDwindow-6F55D6A627441E8F4F1C7D2430BF09C3
+2019-10-01 16:23:42,544|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page|# 12|web.open(url) - PASS opened URL https://parabank.parasoft.com/parabank/index.htm
+2019-10-01 16:23:43,146|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page|# 13|web.assertAndClick(locato - executing assertAndClick(locator,label)(${loc.parabank.MakeDeposits}, ${ParaBankMakeDeposits})
+2019-10-01 16:23:43,270|I|Thread-5|clicking '(//a[@href="services/ParaBank?wsdl"])[4 and text() = 'Make Deposits']'...
+2019-10-01 16:23:43,294|I|Thread-5|click target via JS, @id=
+2019-10-01 16:23:45,192|I|Thread-5|clicked -> true
+2019-10-01 16:23:45,194|I|Thread-5|Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07|Verifying ATM services of index page|# 13|web.assertAndClick(locato - PASS click via JS event
+2019-10-01 16:23:45,396|I|Thread-5|[Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001|TestCase_07] saving test scenario
+2019-10-01 16:23:45,480|I|Thread-5|[20191001_162304] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\ParaBankAutomation\output\20191001_162304\Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 15140 ms
+» Test Steps:     9
+» Error(s):       0
+
+
+
+2019-10-01 16:23:47,244|I|Thread-5|[20191001_162304] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 18543 ms
+» Iterations:     [1] total 1
+» Test Steps:     9
+» Passed:         9
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\ParaBankAutomation\output\20191001_162304\Scenario_IndexIcon-plan.002,Scenario_IndexIcon.20191001_162328.001.xlsx
+
+
+
+2019-10-01 16:23:47,699|I|main|[20191001_162304] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] now completed
+2019-10-01 16:23:47,702|I|main|[20191001_162304] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] resolve RUN ID as 20191001_162304
+2019-10-01 16:23:47,717|I|main|[20191001_162304] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] new thread started
+2019-10-01 16:23:47,733|I|Thread-8|missing REQUIRED configuration; sms DISABLED!
+2019-10-01 16:23:47,766|I|Thread-8|[20191001_162304] executing C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx with 1 iteration(s)
+2019-10-01 16:23:47,768|I|Thread-8|[20191001_162304] create directory C:\projects\ParaBankAutomation\output\20191001_162304\captures
+2019-10-01 16:23:47,770|I|Thread-8|[20191001_162304] create directory C:\projects\ParaBankAutomation\output\20191001_162304\logs
+2019-10-01 16:23:48,223|I|Thread-8|[20191001_162304] merging test data to tmp file C:\projects\ParaBankAutomation\output\20191001_162304\Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001.xlsx
+2019-10-01 16:23:48,225|I|Thread-8|refetching data from C:\projects\ParaBankAutomation\artifact\data\Scenario_IndexIcon.data.xlsx
+2019-10-01 16:23:48,378|I|Thread-8|[20191001_162304] test script and test data merged to C:\projects\ParaBankAutomation\output\20191001_162304\Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001.xlsx
+2019-10-01 16:23:48,592|I|Thread-8|STARTS
+2019-10-01 16:23:48,597|I|Thread-8|Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001 - executing iteration #1 of 1; Iteration Id 1
+2019-10-01 16:23:48,600|I|Thread-8|Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001|TestCase_08 - executing test scenario
+2019-10-01 16:23:48,602|I|Thread-8|Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001|TestCase_08|Verifying online services of index page - executing activity
+2019-10-01 16:23:49,206|I|Thread-8|Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001|TestCase_08|Verifying online services of index page|#  5|web.open(url) - executing open(url)(${parabankIndexURL})
+2019-10-01 16:23:50,220|I|Thread-8|current browser window handle:CDwindow-6F55D6A627441E8F4F1C7D2430BF09C3
+2019-10-01 16:23:50,245|I|Thread-8|Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001|TestCase_08|Verifying online services of index page|#  5|web.open(url) - PASS opened URL https://parabank.parasoft.com/parabank/index.htm
+2019-10-01 16:23:50,848|I|Thread-8|Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001|TestCase_08|Verifying online services of index page|#  6|web.maximizeWindow() - executing maximizeWindow()()
+2019-10-01 16:23:50,926|I|Thread-8|Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001|TestCase_08|Verifying online services of index page|#  6|web.maximizeWindow() - PASS browser window maximized
+2019-10-01 16:23:51,531|I|Thread-8|Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001|TestCase_08|Verifying online services of index page|#  7|web.assertAndClick(locato - executing assertAndClick(locator,label)(${loc.parabank.BillPay}, ${ParaBankBillPay})
+2019-10-01 16:23:51,667|I|Thread-8|clicking '//a[text()='Bill Pay' and text() = 'Bill Pay']'...
+2019-10-01 16:23:51,693|I|Thread-8|click target via JS, @id=
+2019-10-01 16:23:52,201|I|Thread-8|clicked -> true
+2019-10-01 16:23:52,205|I|Thread-8|Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001|TestCase_08|Verifying online services of index page|#  7|web.assertAndClick(locato - PASS click via JS event
+2019-10-01 16:23:52,808|I|Thread-8|Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001|TestCase_08|Verifying online services of index page|#  8|web.goBack() - executing goBack()()
+2019-10-01 16:23:52,944|I|Thread-8|Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001|TestCase_08|Verifying online services of index page|#  8|web.goBack() - PASS went back previous page
+2019-10-01 16:23:53,547|I|Thread-8|Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001|TestCase_08|Verifying online services of index page|#  9|web.assertAndClick(locato - executing assertAndClick(locator,label)(${loc.parabank.AccountHistory}, ${ParaBankAccountHistory})
+2019-10-01 16:23:53,676|I|Thread-8|clicking '//a[text()='Account History' and text() = 'Account History']'...
+2019-10-01 16:23:53,709|I|Thread-8|click target via JS, @id=
+2019-10-01 16:23:54,234|I|Thread-8|clicked -> true
+2019-10-01 16:23:54,236|I|Thread-8|Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001|TestCase_08|Verifying online services of index page|#  9|web.assertAndClick(locato - PASS click via JS event
+2019-10-01 16:23:54,846|I|Thread-8|Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001|TestCase_08|Verifying online services of index page|# 10|web.goBack() - executing goBack()()
+2019-10-01 16:23:54,948|I|Thread-8|Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001|TestCase_08|Verifying online services of index page|# 10|web.goBack() - PASS went back previous page
+2019-10-01 16:23:55,551|I|Thread-8|Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001|TestCase_08|Verifying online services of index page|# 11|web.assertAndClick(locato - executing assertAndClick(locator,label)(${loc.parabank.onlineservices.TransferFunds}, ${ParaBankOnlineTransferFunds})
+2019-10-01 16:23:55,670|I|Thread-8|clicking '(//a[text()='Transfer Funds'])[2 and text() = 'Transfer Funds']'...
+2019-10-01 16:23:55,694|I|Thread-8|click target via JS, @id=
+2019-10-01 16:23:56,663|I|Thread-8|clicked -> true
+2019-10-01 16:23:56,665|I|Thread-8|Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001|TestCase_08|Verifying online services of index page|# 11|web.assertAndClick(locato - PASS click via JS event
+2019-10-01 16:23:56,876|I|Thread-8|[Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001|TestCase_08] saving test scenario
+2019-10-01 16:23:56,989|I|Thread-8|[20191001_162304] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\ParaBankAutomation\output\20191001_162304\Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 8378 ms
+» Test Steps:     7
+» Error(s):       0
+
+
+
+2019-10-01 16:23:58,640|I|Thread-8|[20191001_162304] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 10899 ms
+» Iterations:     [1] total 1
+» Test Steps:     7
+» Passed:         7
+» Error(s):       0
+» Iteration 1 of 1: C:\projects\ParaBankAutomation\output\20191001_162304\Scenario_IndexIcon-plan.003,Scenario_IndexIcon.20191001_162347.001.xlsx
+
+
+
+2019-10-01 16:23:58,734|I|main|[20191001_162304] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] now completed
+2019-10-01 16:23:58,734|I|main|[20191001_162304] all execution thread(s) have terminated
+2019-10-01 16:23:58,734|I|main|[20191001_162304] test run completed in about 54 seconds
+2019-10-01 16:23:58,843|I|main|No predefined nexial-setup found
+2019-10-01 16:23:58,895|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-10-01 16:23:58,896|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-10-01 16:23:58,897|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-10-01 16:23:58,897|I|main|generating HTML output for this execution to C:\projects\ParaBankAutomation\output\20191001_162304\execution-output.html
+2019-10-01 16:23:59,489|I|main|generating JUnit XML output for this execution to C:\projects\ParaBankAutomation\output\20191001_162304\junit.xml
+2019-10-01 16:23:59,542|I|main|generated JUnit report for this execution: C:\projects\ParaBankAutomation\output\20191001_162304\junit.xml
+2019-10-01 16:23:59,561|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-10-01 16:23:59,565|I|main|skipped email notification as configured
+2019-10-01 16:23:59,567|I|main|exiting Nexial...
+2019-10-01 16:23:59,571|I|main|shutdown starts...
+2019-10-01 16:23:59,572|I|main|Shutting down 'chrome' webdriver...
+2019-10-01 16:24:03,394|I|main|shutdown ends...
+2019-10-01 16:24:03,400|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 54 sec.
+| » Test Steps....: 22
+| » Passed........: 22
+| » Failed........: 0
+| » Success Rate..: 100.00%
+\----------------------------------------------------------nexial-core 2.6_0632-
+
+2019-10-01 16:24:03,418|I|main|ALL PASSED!
+2019-10-01 16:24:03,425|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\ParaBankAutomation\output\20191001_162304
+NEXIAL_EXECUTION_HTML: C:\projects\ParaBankAutomation\output\20191001_162304\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\ParaBankAutomation\output\20191001_162304\junit.xml
+NEXIAL_SUCCESS_RATE:   100.00%
+NEXIAL_EXIT_STATUS:    0

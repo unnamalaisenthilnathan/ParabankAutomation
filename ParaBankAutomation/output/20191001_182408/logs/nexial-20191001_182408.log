@@ -1,0 +1,126 @@
+2019-10-01 18:24:09,238|I|Thread-1|(DELAYED) nexial-core 2.6_0632 starting up...
+2019-10-01 18:24:09,241|I|Thread-1|(DELAYED) validating test script as C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx
+2019-10-01 18:24:09,242|I|Thread-1|(DELAYED) validating data file as C:\projects\ParaBankAutomation\artifact\data\Scenario_IndexIcon.data.xlsx
+2019-10-01 18:24:09,242|I|Thread-1|(DELAYED) validating test script as C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx
+2019-10-01 18:24:09,242|I|Thread-1|(DELAYED) validating data file as C:\projects\ParaBankAutomation\artifact\data\Scenario_IndexIcon.data.xlsx
+2019-10-01 18:24:09,242|I|Thread-1|(DELAYED) validating test script as C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx
+2019-10-01 18:24:09,242|I|Thread-1|(DELAYED) validating data file as C:\projects\ParaBankAutomation\artifact\data\Scenario_IndexIcon.data.xlsx
+2019-10-01 18:24:09,242|I|Thread-1|(DELAYED) validating test script as C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx
+2019-10-01 18:24:09,242|I|Thread-1|(DELAYED) validating data file as C:\projects\ParaBankAutomation\artifact\data\Scenario_IndexIcon.data.xlsx
+2019-10-01 18:24:09,242|I|Thread-1|(DELAYED) validating test script as C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx
+2019-10-01 18:24:09,242|I|Thread-1|(DELAYED) validating data file as C:\projects\ParaBankAutomation\artifact\data\Scenario_IndexIcon.data.xlsx
+2019-10-01 18:24:09,242|I|Thread-1|(DELAYED) validating test script as C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx
+2019-10-01 18:24:09,242|I|Thread-1|(DELAYED) validating data file as C:\projects\ParaBankAutomation\artifact\data\Scenario_IndexIcon.data.xlsx
+2019-10-01 18:24:09,242|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-10-01 18:24:09,242|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-10-01 18:24:09,242|I|Thread-1|(DELAYED) [20191001_182408] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] resolve RUN ID as 20191001_182408
+2019-10-01 18:24:09,242|I|Thread-1|(DELAYED) [20191001_182408] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] new thread started
+2019-10-01 18:24:09,242|I|Thread-1|No predefined nexial-setup found
+2019-10-01 18:24:09,318|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-10-01 18:24:09,318|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-10-01 18:24:09,319|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-10-01 18:24:09,354|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-10-01 18:24:10,281|I|Thread-1|[20191001_182408] executing C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx with 1 iteration(s)
+2019-10-01 18:24:10,284|I|Thread-1|[20191001_182408] create directory C:\projects\ParaBankAutomation\output\20191001_182408\captures
+2019-10-01 18:24:10,286|I|Thread-1|[20191001_182408] create directory C:\projects\ParaBankAutomation\output\20191001_182408\logs
+2019-10-01 18:24:12,240|I|Thread-1|[20191001_182408] merging test data to tmp file C:\projects\ParaBankAutomation\output\20191001_182408\Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_182410.001.xlsx
+2019-10-01 18:24:12,241|I|Thread-1|refetching data from C:\projects\ParaBankAutomation\artifact\data\Scenario_IndexIcon.data.xlsx
+2019-10-01 18:24:12,786|I|Thread-1|[20191001_182408] test script and test data merged to C:\projects\ParaBankAutomation\output\20191001_182408\Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_182410.001.xlsx
+2019-10-01 18:24:13,497|I|Thread-1|STARTS
+2019-10-01 18:24:13,528|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_182410.001 - executing iteration #1 of 1; Iteration Id 1
+2019-10-01 18:24:13,528|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_182410.001|TestCase_06 - executing test scenario
+2019-10-01 18:24:13,528|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_182410.001|TestCase_06|Validate index icon - executing activity
+2019-10-01 18:24:14,144|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_182410.001|TestCase_06|Validate index icon|#  5|web.open(url) - executing open(url)(${parabankURL})
+2019-10-01 18:24:14,151|I|Thread-1|No valid instance of webdriver, initializing...
+2019-10-01 18:24:14,155|I|Thread-1|init chrome
+2019-10-01 18:24:17,616|I|Thread-1|browser initialization completed for 'chrome'
+2019-10-01 18:24:17,664|I|Thread-1|setting browser polling wait time to 800 ms
+2019-10-01 18:24:17,693|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-10-01 18:24:28,246|E|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_182410.001|TestCase_06|Validate index icon|#  5|web.open(url) - FAIL EXECUTING COMMAND: web.open(url)('https://parabank.parasoft.com/parabank/transfer.htm')
+UNKNOWN ERROR: timeout   (Session info: chrome=77.0.3865.90)...
+2019-10-01 18:24:28,252|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_182410.001|TestCase_06|Validate index icon - [ABORT] due to failure on fail-fast command: web.open(url)
+2019-10-01 18:24:28,622|I|Thread-1|[Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_182410.001|TestCase_06] saving test scenario
+2019-10-01 18:24:28,889|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_182410.001 - [ABORT] fail-immediate in effect - test execution will stop now.
+2019-10-01 18:24:28,982|I|Thread-1|[20191001_182408] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\ParaBankAutomation\output\20191001_182408\Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_182410.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 15433 ms
+» Test Steps:     6
+» Error(s):       1
+
+
+
+2019-10-01 18:24:28,984|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_182410.001 - [ABORT] fail-immediate in effect - test execution will stop now.
+2019-10-01 18:24:31,819|I|Thread-1|[20191001_182408] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 22819 ms
+» Iterations:     [1] total 1
+» Test Steps:     6
+» Passed:         0
+» Error(s):       1
+» Iteration 1 of 1: C:\projects\ParaBankAutomation\output\20191001_182408\Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_182410.001.xlsx
+
+
+
+2019-10-01 18:24:31,990|I|main|[20191001_182408] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] now completed
+2019-10-01 18:24:31,991|I|main|[20191001_182408] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] resolve RUN ID as 20191001_182408
+2019-10-01 18:24:31,991|I|main|[20191001_182408] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] new thread started
+2019-10-01 18:24:31,995|I|Thread-5|missing REQUIRED configuration; sms DISABLED!
+2019-10-01 18:24:32,017|I|Thread-5|current script - [ABORT] scenario failed and fail-immediate is in effect - subsequent test scenarios will be skipped
+2019-10-01 18:24:32,992|I|main|[20191001_182408] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] now completed
+2019-10-01 18:24:32,993|I|main|[20191001_182408] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] resolve RUN ID as 20191001_182408
+2019-10-01 18:24:32,993|I|main|[20191001_182408] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] new thread started
+2019-10-01 18:24:32,995|I|Thread-6|missing REQUIRED configuration; sms DISABLED!
+2019-10-01 18:24:33,014|I|Thread-6|current script - [ABORT] scenario failed and fail-immediate is in effect - subsequent test scenarios will be skipped
+2019-10-01 18:24:33,993|I|main|[20191001_182408] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] now completed
+2019-10-01 18:24:33,994|I|main|[20191001_182408] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] resolve RUN ID as 20191001_182408
+2019-10-01 18:24:33,994|I|main|[20191001_182408] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] new thread started
+2019-10-01 18:24:33,996|I|Thread-7|missing REQUIRED configuration; sms DISABLED!
+2019-10-01 18:24:34,014|I|Thread-7|current script - [ABORT] scenario failed and fail-immediate is in effect - subsequent test scenarios will be skipped
+2019-10-01 18:24:34,995|I|main|[20191001_182408] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] now completed
+2019-10-01 18:24:34,995|I|main|[20191001_182408] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] resolve RUN ID as 20191001_182408
+2019-10-01 18:24:34,995|I|main|[20191001_182408] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] new thread started
+2019-10-01 18:24:34,997|I|Thread-8|missing REQUIRED configuration; sms DISABLED!
+2019-10-01 18:24:35,015|I|Thread-8|current script - [ABORT] scenario failed and fail-immediate is in effect - subsequent test scenarios will be skipped
+2019-10-01 18:24:35,997|I|main|[20191001_182408] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] now completed
+2019-10-01 18:24:35,998|I|main|[20191001_182408] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] resolve RUN ID as 20191001_182408
+2019-10-01 18:24:35,998|I|main|[20191001_182408] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] new thread started
+2019-10-01 18:24:36,000|I|Thread-9|missing REQUIRED configuration; sms DISABLED!
+2019-10-01 18:24:36,017|I|Thread-9|current script - [ABORT] scenario failed and fail-immediate is in effect - subsequent test scenarios will be skipped
+2019-10-01 18:24:36,999|I|main|[20191001_182408] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] now completed
+2019-10-01 18:24:37,000|I|main|[20191001_182408] all execution thread(s) have terminated
+2019-10-01 18:24:37,001|I|main|[20191001_182408] test run completed in about 28 seconds
+2019-10-01 18:24:37,103|I|main|No predefined nexial-setup found
+2019-10-01 18:24:37,153|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-10-01 18:24:37,153|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-10-01 18:24:37,154|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-10-01 18:24:37,154|I|main|generating HTML output for this execution to C:\projects\ParaBankAutomation\output\20191001_182408\execution-output.html
+2019-10-01 18:24:37,869|I|main|generating JUnit XML output for this execution to C:\projects\ParaBankAutomation\output\20191001_182408\junit.xml
+2019-10-01 18:24:37,952|I|main|generated JUnit report for this execution: C:\projects\ParaBankAutomation\output\20191001_182408\junit.xml
+2019-10-01 18:24:37,979|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-10-01 18:24:37,980|I|main|skipped email notification as configured
+2019-10-01 18:24:37,982|I|main|exiting Nexial...
+2019-10-01 18:24:37,982|I|main|shutdown starts...
+2019-10-01 18:24:37,983|I|main|Shutting down 'chrome' webdriver...
+2019-10-01 18:24:41,770|I|main|shutdown ends...
+2019-10-01 18:24:41,779|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 28 sec.
+| » Test Steps....: 1
+| » Passed........: 0
+| » Failed........: 1
+| » Success Rate..: 0.00%
+\----------------------------------------------------------nexial-core 2.6_0632-
+
+2019-10-01 18:24:41,799|E|main|failure found; success rate is 0.00%
+2019-10-01 18:24:41,800|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\ParaBankAutomation\output\20191001_182408
+NEXIAL_EXECUTION_HTML: C:\projects\ParaBankAutomation\output\20191001_182408\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\ParaBankAutomation\output\20191001_182408\junit.xml
+NEXIAL_SUCCESS_RATE:   0.00%
+NEXIAL_EXIT_STATUS:    -13

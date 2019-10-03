@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="20191001_112121" timestamp="2019-10-01T11:21:21" time="32.047" tests="8" errors="6">
+  <testsuite id="1" name="Scenario_LoginPage" package="Scenario_LoginPage" hostname="ATMECSINDT-016" timestamp="2019-10-01T11:21:22" time="27.260" tests="8" errors="6">
+    <properties>
+      <property name="Run From" value="ATMECSINDT-016" />
+      <property name="Run OS" value="amd64 Windows 10 10.0" />
+      <property name="Run User" value="Unnamalai.S" />
+      <property name="Iteration" value="1 of 1" />
+      <property name="Script" value="Scenario_LoginPage.xlsx" />
+      <property name="Logs" value="C:\projects\ParaBankAutomation\output\20191001_112121\logs\nexial-20191001_112121.log" />
+      <property name="Data File" value="Scenario_LoginPage.data.xlsx" />
+      <property name="DataSheet(s)" value="#default" />
+      <property name="runtime args" value="-script C:\projects\ParaBankAutomation\artifact\script\Scenario_LoginPage.xlsx" />
+    </properties>
+    <testcase id="Login with valid username and password" name="Login with valid username and password" classname="Testcase_05" timestamp="2019-10-01T11:21:25" time="24.585">
+      <failure type="failure found in test activity" message="6 of 8 FAILED. Check C:\projects\ParaBankAutomation\output\20191001_112121\Scenario_LoginPage.20191001_112122.001.xlsx for execution result, C:\projects\ParaBankAutomation\output\20191001_112121\logs\nexial-20191001_112121.log for execution logs" />
+      <system-out>Total : 8
+Passed: 2
+Failed: 6
+Output: C:\projects\ParaBankAutomation\output\20191001_112121\Scenario_LoginPage.20191001_112122.001.xlsx
+Logs  : C:\projects\ParaBankAutomation\output\20191001_112121\logs\nexial-20191001_112121.log</system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

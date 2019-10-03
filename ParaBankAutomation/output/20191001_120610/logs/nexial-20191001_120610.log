@@ -1,0 +1,98 @@
+2019-10-01 12:06:10,963|I|Thread-1|(DELAYED) nexial-core 2.6_0632 starting up...
+2019-10-01 12:06:10,968|I|Thread-1|(DELAYED) validating test script as C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx
+2019-10-01 12:06:10,968|I|Thread-1|(DELAYED) validating data file as C:\projects\ParaBankAutomation\artifact\data\Scenario_IndexIcon.data.xlsx
+2019-10-01 12:06:10,968|I|Thread-1|(DELAYED) input files and output directory resolved...
+2019-10-01 12:06:10,968|I|Thread-1|(DELAYED) No predefined nexial-setup found
+2019-10-01 12:06:10,968|I|Thread-1|(DELAYED) [20191001_120610] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] resolve RUN ID as 20191001_120610
+2019-10-01 12:06:10,968|I|Thread-1|(DELAYED) [20191001_120610] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] new thread started
+2019-10-01 12:06:10,969|I|Thread-1|No predefined nexial-setup found
+2019-10-01 12:06:11,055|I|Thread-1|outputBase not set; output-to-cloud DISABLED!
+2019-10-01 12:06:11,056|I|Thread-1|accessKey not set; output-to-cloud DISABLED!
+2019-10-01 12:06:11,057|I|Thread-1|secretKey not set; output-to-cloud DISABLED!
+2019-10-01 12:06:11,087|I|Thread-1|missing REQUIRED configuration; sms DISABLED!
+2019-10-01 12:06:11,954|I|Thread-1|[20191001_120610] executing C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx with 1 iteration(s)
+2019-10-01 12:06:11,958|I|Thread-1|[20191001_120610] create directory C:\projects\ParaBankAutomation\output\20191001_120610\captures
+2019-10-01 12:06:11,960|I|Thread-1|[20191001_120610] create directory C:\projects\ParaBankAutomation\output\20191001_120610\logs
+2019-10-01 12:06:12,669|I|Thread-1|[20191001_120610] merging test data to tmp file C:\projects\ParaBankAutomation\output\20191001_120610\Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_120611.001.xlsx
+2019-10-01 12:06:12,671|I|Thread-1|refetching data from C:\projects\ParaBankAutomation\artifact\data\Scenario_IndexIcon.data.xlsx
+2019-10-01 12:06:13,064|I|Thread-1|[20191001_120610] test script and test data merged to C:\projects\ParaBankAutomation\output\20191001_120610\Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_120611.001.xlsx
+2019-10-01 12:06:14,006|I|Thread-1|STARTS
+2019-10-01 12:06:14,040|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_120611.001 - executing iteration #1 of 1; Iteration Id 1
+2019-10-01 12:06:14,051|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_120611.001|TestCase_06 - executing test scenario
+2019-10-01 12:06:14,053|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_120611.001|TestCase_06|Validate index icon - executing activity
+2019-10-01 12:06:14,658|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_120611.001|TestCase_06|Validate index icon|#  5|web.open(url) - executing open(url)(${parabankURL})
+2019-10-01 12:06:14,661|I|Thread-1|No valid instance of webdriver, initializing...
+2019-10-01 12:06:14,663|I|Thread-1|init chrome
+2019-10-01 12:06:17,900|I|Thread-1|browser initialization completed for 'chrome'
+2019-10-01 12:06:17,953|I|Thread-1|setting browser polling wait time to 800 ms
+2019-10-01 12:06:17,984|I|Thread-1|setting browser page load timeout to 10000 ms
+2019-10-01 12:06:24,109|I|Thread-1|current browser window handle:CDwindow-1F6CB0F2F4FB3837E53C6FC508D7FEF5
+2019-10-01 12:06:24,502|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_120611.001|TestCase_06|Validate index icon|#  5|web.open(url) - PASS opened URL https://parabank.parasoft.com/parabank/transfer.htm
+2019-10-01 12:06:25,103|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_120611.001|TestCase_06|Validate index icon|#  6|web.maximizeWindow() - executing maximizeWindow()()
+2019-10-01 12:06:26,289|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_120611.001|TestCase_06|Validate index icon|#  6|web.maximizeWindow() - PASS browser window maximized
+2019-10-01 12:06:26,890|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_120611.001|TestCase_06|Validate index icon|#  7|web.open(url) - executing open(url)(${parabankIndexURL})
+2019-10-01 12:06:27,897|I|Thread-1|current browser window handle:CDwindow-1F6CB0F2F4FB3837E53C6FC508D7FEF5
+2019-10-01 12:06:27,932|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_120611.001|TestCase_06|Validate index icon|#  7|web.open(url) - PASS opened URL https://parabank.parasoft.com/parabank/index.htm
+2019-10-01 12:06:28,534|I|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_120611.001|TestCase_06|Validate index icon|#  8|web.assertAttribute(locat - executing assertAttribute(locator,attrName,value)(//li[@class='captionone'], class, ATM Services)
+2019-10-01 12:06:28,631|I|Thread-1|Element '//li[@class='captionone']' attribute 'class' yielded 'captionone'
+2019-10-01 12:06:28,667|E|Thread-1|Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_120611.001|TestCase_06|Validate index icon|#  8|web.assertAttribute(locat - FAIL 
+expected=ATM Services
+actual  =captionone
+2019-10-01 12:06:28,909|I|Thread-1|[Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_120611.001|TestCase_06] saving test scenario
+2019-10-01 12:06:29,093|I|Thread-1|[20191001_120610] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Output:    C:\projects\ParaBankAutomation\output\20191001_120610\Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_120611.001.xlsx
+| Iteration:      1
+\-------------------------------------------------------------------------------
+» Execution Time: 15036 ms
+» Test Steps:     4
+» Error(s):       1
+
+
+
+2019-10-01 12:06:31,373|I|Thread-1|[20191001_120610] 
+/-TEST COMPLETE-----------------------------------------------------------------
+| Test Script:    C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx
+\-------------------------------------------------------------------------------
+» Execution Time: 20625 ms
+» Iterations:     [1] total 1
+» Test Steps:     4
+» Passed:         3
+» Error(s):       1
+» Iteration 1 of 1: C:\projects\ParaBankAutomation\output\20191001_120610\Scenario_IndexIcon-plan.001,Scenario_IndexIcon.20191001_120611.001.xlsx
+
+
+
+2019-10-01 12:06:31,744|I|main|[20191001_120610] [C:\projects\ParaBankAutomation\artifact\script\Scenario_IndexIcon.xlsx] now completed
+2019-10-01 12:06:31,745|I|main|[20191001_120610] all execution thread(s) have terminated
+2019-10-01 12:06:31,746|I|main|[20191001_120610] test run completed in about 21 seconds
+2019-10-01 12:06:31,888|I|main|No predefined nexial-setup found
+2019-10-01 12:06:31,935|I|main|outputBase not set; output-to-cloud DISABLED!
+2019-10-01 12:06:31,937|I|main|accessKey not set; output-to-cloud DISABLED!
+2019-10-01 12:06:31,938|I|main|secretKey not set; output-to-cloud DISABLED!
+2019-10-01 12:06:31,939|I|main|generating HTML output for this execution to C:\projects\ParaBankAutomation\output\20191001_120610\execution-output.html
+2019-10-01 12:06:32,949|I|main|generating JUnit XML output for this execution to C:\projects\ParaBankAutomation\output\20191001_120610\junit.xml
+2019-10-01 12:06:33,027|I|main|generated JUnit report for this execution: C:\projects\ParaBankAutomation\output\20191001_120610\junit.xml
+2019-10-01 12:06:33,053|I|main|nexial mailer not enabled: nexial.enableEmail=false
+2019-10-01 12:06:33,055|I|main|skipped email notification as configured
+2019-10-01 12:06:33,059|I|main|exiting Nexial...
+2019-10-01 12:06:33,067|I|main|shutdown starts...
+2019-10-01 12:06:33,070|I|main|Shutting down 'chrome' webdriver...
+2019-10-01 12:06:36,912|I|main|shutdown ends...
+2019-10-01 12:06:36,914|I|main|
+
+/-END OF EXECUTION--------------------------------------------------------------
+| » Execution Time: 21 sec.
+| » Test Steps....: 4
+| » Passed........: 3
+| » Failed........: 1
+| » Success Rate..: 75.00%
+\----------------------------------------------------------nexial-core 2.6_0632-
+
+2019-10-01 12:06:36,915|E|main|failure found; success rate is 75.00%
+2019-10-01 12:06:36,917|I|main|End of Execution:
+NEXIAL_OUTPUT:         C:\projects\ParaBankAutomation\output\20191001_120610
+NEXIAL_EXECUTION_HTML: C:\projects\ParaBankAutomation\output\20191001_120610\execution-output.html
+NEXIAL_JUNIT_XML:      C:\projects\ParaBankAutomation\output\20191001_120610\junit.xml
+NEXIAL_SUCCESS_RATE:   75.00%
+NEXIAL_EXIT_STATUS:    -13
